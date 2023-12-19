@@ -1,0 +1,26 @@
+{
+  "logs": "/var/log/pufferpanel",
+  "web": {
+    "host": "0.0.0.0:16309"
+  },
+  "token": {
+    "public": "http://81.24.6.24:8080/auth/publickey"
+  },
+  "panel": {
+    "enable": false
+  },
+  "daemon": {
+    "auth": {
+      "url": "http://81.24.6.24:8080/oauth2/token",
+      "clientId": ".node_1",
+      "clientSecret": "2d7bf689d6c541f79798a840f188a19c"
+    },
+    "data": {
+      "cache": "/var/lib/pufferpanel/cache",
+      "servers": "/var/lib/pufferpanel/servers"
+    },
+    "sftp": {
+      "host": "0.0.0.0:5657"
+    }
+  }
+}
